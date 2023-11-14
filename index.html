@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Olawale Akinola</title>
+    <script src="https://kit.fontawesome.com/3a1a6056f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="images/company-logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img onclick="closemenu()" class="nav-links" src="images/close-icon.png">
+                </ul>
+                <img onclick="openmenu()" class="nav-links" src="images/menu-icon-white.png">
+             </nav>
+             <div class="text-box">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Olawale</span> <br> Akinola from Nigeria</h1>
+             </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-co1-1">
+                <img src="images/user1.png">
+            </div>
+            <div class="about-co1-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello, I'm Olawale Akinola, a passionate and innovative web developer with a deep love for creating interactive and user-friendly
+                     websites. Welcome to my digital playground!
+                    <br> <br>
+💡                  I believe that the web is an ever-evolving canvas for creativity, and I thrive on the challenges it presents. With 
+                    3 years of experience in web development, I've had the privilege of working on a diverse range of projects, from 
+                    small business websites to large-scale web applications.
+
+                <br> <br>
+                My journey into web development started with a fascination for the way websites could bring ideas to life and connect people across 
+                the globe. Since then, I've been on a continuous quest to master the art and science of crafting exceptional online experiences.
+                </p>
+                <br>
+                <h4>Thank you for visiting my portfolio, and I look forward to the possibility of working together on your next web development project!</h4>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Developer</span><br>Disigning Website</li>
+                        <li><span>MIT Developer</span><br>MIT App Design</li>
+                        <li><span>Scratch</span><br>Vidio Game Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Kingsley IT Consult</span><br>2016 - 2018</li>
+                        <li><span>True Treasure Programming learning</span><br>2018 - 2022</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Anwar Islam Arabic Nursery and Primary School, Kebbi State</span><br>Primary Certificate: 2000 - 2010</li>
+                        <li><span>Murtala Secondary School, Yauri</span><br>SSCE Certificate (Waec $ Neco):  2010 - 2018</li>
+                        <li><span>Umary Ali Shinkafi Polytechnic, Sokoto</span><br>ND in Computer Science:  2019 - 2021</li>
+                        <li><span>Kano State Polytechnic</span><br>HND in Computer Science:  2022 - date</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>
+                    Hello there! I'm Olawalwe Akinola, a passionate web designer dedicated to crafting digital 
+                    experiences that blend form with function. With a keen eye for aesthetics and a love for 
+                    clean, user-centric design, I bring websites to life that not only look good but also 
+                    deliver seamless and engaging user experiences.
+                </p>
+                    <a href="#">Learn More</a>
+               </div> 
+               <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>Web App Desiner</h2>
+                <p>
+                    I am a dedicated web app designer passionate about creating intuitive and visually compelling 
+                    digital solutions. Within the dynamic realm of web application design, I strive to merge
+                     cutting-edge aesthetics with seamless functionality to deliver experiences that users love.
+
+
+                </p>
+                    <a href="#">Learn More</a>
+               </div> 
+               <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Graphics Designer</h2>
+                <p>I am a passionate graphic designer weaving stories through pixels and colors. In my creative 
+                    journey, I embark on a mission to turn ideas into captivating visual narratives. Welcome
+                     to my graphic design portfolio, where each project is a canvas for imagination and 
+                     innovation.
+
+                </p>
+                    <a href="#">Learn More</a>
+               </div> 
+
+
+            </div>
+        </div>
+    </div>
+
+<!-------portfolio--------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/greenolivebanner.jpg">
+                <div class="layer">
+                    <h3>Green Olive Global Academy</h3>
+                    <p>Welcome to Green Olive Global Academy, where you can enroll in most of our various online classes.
+                </p>
+                <a href="https://olawale11954.github.io/greenoliveacademy/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dell laptop 4.jpg">
+                <div class="layer">
+                    <h3>Onling Shopping App</h3>
+                    <p>Welcome to Online Shooping Website, where you can place your order anywhere in Nigeria 
+                </p>
+                <a href="https://olawale11954.github.io/trandtreasure/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cpp.png">
+                <div class="layer">
+                    <h3>Programming Language Using CPP</h3>
+                    <p>Welcome to our online platform dedicated to providing high-quality C++ programming 
+                </p>
+                <a href="https://olawale11954.github.io/programming-language-using-cpp/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn" href="#">See More</a>
+
+    </div>
+</div>
+
+    <!-----------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>akinlola3@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>07035360479</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mathew.akinola.121"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/OlawaleAkinola112"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/olawale11954"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/OlawaleAkinola">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <a href="images/Olawale CV.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright @ Olawale Akinola 2023</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzwkcUdUNHGNgQlMFuklXXVAgRHiEyPw5Q-1re3v5woVl11t2GzYJJv17_9_VEQ-6BRKQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         msg.innerHTML = "Your information has been submitted successfully!"
+         setTimeout(function(){
+            msg.innerHTML = "Your information has been submitted successfully!"  
+         },6000)
+         form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+     
+
+
+
+
+
+    </script>
+</body>
+</html>
